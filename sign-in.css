@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 80%, rgba(0, 0, 0.9, 0.7) 90%), url("image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1800px, 100vw);
+    position: relative;
+    height: 820px;
+    object-fit: cover;
+    filter: brightness(2);
+    /* background-blend-mode: darken; */
+}
+
+nav {
+    display: inline-flex;
+    margin-top: 25px;
+    position: inherit;
+
+}
+
+.logo1 {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+    margin-left: 150px;
+}
+
+.sign-in-form {
+    height: 700px;
+    width: 450px;
+    background-color: rgb(0, 0, 0);
+    opacity: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.or{
+    color: grey;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+.fgp{
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.fgp a{
+    color: rgb(211, 194, 194);
+}
+
+.button-after{
+    color: white;
+    height: 35px;
+    background-color: rgb(34, 30, 30);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -5px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.button-after:hover{
+    background-color: rgb(54, 49, 49);
+}
+
+ 
+.sign {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.button{
+    color: white;
+    background-color: red;
+    height: 40px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(243, 5, 53);
+}
+.remember{
+    display: flex;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.writing{
+    display: flex;
+}
+.new{
+    color: grey;
+    font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.up-sgn{
+    color: white;
+    font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bigtext{
+    color:grey;
+    font-size: 15px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-boxes {
+    display: flex;
+    height: 250px;
+    gap: 100px;
+    padding: 60px 0px 0 100px;
+    background-color: rgb(23, 22, 22);
+}
+
+.footer-boxes a {
+    color: white;
+    opacity: 70%;
+}
+
+.f-b1 {
+    border: 2px solid none;
+    /* background-color: rgb(207, 207, 207); */
+    height: 150px;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    /* row-gap: 5px; */
+
+}
+
+.f-b2 {
+    border: 2px solid none;
+    /* background-color: rgb(207, 207, 207); */
+    height: 150px;
+    width: 300px;
+    display: grid;
+}
+
+.f-b3 {
+    border: 2px solid none;
+    /* background-color: rgb(207, 207, 207); */
+    height: 150px;
+    width: 300px;
+    display: grid;
+}
+
+.f-b4 {
+    border: 2px solid none;
+    /* background-color: rgb(207, 207, 207); */
+    height: 150px;
+    width: 300px;
+    display: grid;
+}
+
+.english_box1 {
+    background-color: black;
+    display: flex;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 17px;
+
+}
